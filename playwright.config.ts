@@ -11,7 +11,7 @@ import { devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 const config: PlaywrightTestConfig = {
-  testDir: `..\tests\loginPageValidation.spec.ts`,
+  testDir: `..\tests\AccountManagement.spec.ts`,
   // Maximum time expect() should wait for the condition to be met.
   timeout: 10 * 60 * 1000,
   expect: {
